@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'musiclibraryback'
+    'musiclibraryback',
+    'music_catalog',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True

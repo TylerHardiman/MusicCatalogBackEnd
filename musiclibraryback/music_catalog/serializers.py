@@ -1,6 +1,6 @@
 
 
-fromF rest_framework import serializers
+from rest_framework import serializers
 from .models import Music_Catalog
 
 class MusicSerializer(serializers.ModelSerializer):
